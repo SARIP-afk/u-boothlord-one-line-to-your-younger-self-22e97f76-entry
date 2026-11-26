@@ -3,11 +3,13 @@
 // Pure TypeScript, no dependencies, deterministic, no network. The line is
 // a fixed string: the program writes exactly these bytes on every run.
 //
-// The line (109 chars) won a 10-candidate head-to-head against the judge
-// brief: a father wrong about the guitar and right about the savings
-// account is a contradiction only this older self could report; "keep both
-// lessons, drop the grudge" is the turn and the release in one breath.
-// Full comparison:
+// The line (109 chars, 111 bytes — the em-dash is 3 bytes in UTF-8) won a
+// 10-candidate head-to-head against the judge brief: a father wrong about
+// the guitar and right about the savings account is a contradiction only
+// this older self could report; "keep both lessons, drop the grudge" is
+// the turn and the release in one breath. The line is addressed to the
+// younger self in the imperative ("keep", "drop"), never a slogan to
+// nobody in particular. Full comparison:
 // u-boothlord-one-line-to-your-younger-self-22e97f76-candidates.md.
 
 import { mkdirSync, writeFileSync } from "node:fs";
